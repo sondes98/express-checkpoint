@@ -1,0 +1,362 @@
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: #D4D7DD;
+}
+
+.main-header{
+    top: 0;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 83px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 16px rgb(147 148 148);
+    width: 100%;
+
+}
+
+.main-nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-nav li{
+    margin: 20px;
+    text-decoration: none;
+    display:inline-block
+}
+
+.main-nav a{
+    text-decoration: none;
+    color:black;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+.main-nav a:hover{
+    color: rgb(6, 207, 207);
+    cursor: pointer;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.logo a{
+    text-decoration: none;
+    margin: 20px;
+    font-family: 'Palette Mosaic', cursive;
+    color: black;
+    font-size:30px;
+}
+
+.logo a:hover {
+    color: #a8caaf;
+    cursor: pointer;
+}
+
+.sec1{
+    background-image: url('https://preview.colorlib.com/theme/marga/images/xhero_1.jpg.pagespeed.ic.uLGCy53ebG.webp');
+    height: 100vh;
+    min-height: 908px;
+    display: grid;
+    margin-top: 91px;
+}
+
+.sec11{
+    background-image: url('https://preview.colorlib.com/theme/marga/images/xhero_1.jpg.pagespeed.ic.uLGCy53ebG.webp');
+    min-height: 277px;
+    display: grid;
+    margin-top: 91px;
+}
+
+.--col1{
+    text-align: center;
+    background-color: #d4d7e05c;
+    width: 381px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.title1{
+    word-spacing: 6px;
+    font-weight: bolder;
+    font-family: 'Circular-Loom';
+    color:black;
+    letter-spacing: 3px;
+}
+
+.mb-5{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+}
+
+.mb-0{
+    margin-top: 63px;
+
+}
+
+
+.btn {
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    background-color: #00000012;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Circular-Loom';
+    border-radius: 6px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: #62b2bd88;
+}
+
+.sec2{
+    margin-top: 120px;
+    margin-left:200px;
+    margin-bottom: 100px;
+}
+
+.--col2 {
+    display: -webkit-box
+}
+.img1{
+    width: 647px;
+    height: 500px;
+}
+
+.white-box{
+    box-shadow: 0px 0px 15px #747474db;
+    overflow: overlay;
+    /* z-index: 1; */
+    height: 580px;
+    background-color: #ffffffba;
+    width: 305px;
+    margin-right: -60px;
+    margin-top: 26px;
+}
+
+.heading {
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans';
+    text-align: justify;
+    margin-left: 28px;
+    color: black;
+    word-spacing: 9px;
+    line-height: 34px;
+}
+
+.white-box p{
+    margin-left: 27px;
+    /* margin: 0 auto; */
+    margin-right: 20px;
+    line-height: 29px;
+    word-break: break-all;
+    word-spacing: 1px;
+    font-family: -webkit-pictograph;
+}
+.--col3{
+    height: 64vh;
+    margin-top: 91px;
+    text-align: center;
+    margin-top: 84px;
+}
+
+
+.services{
+    margin: top 50px;
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    box-shadow: 0px 0px 15px;
+    width: 442px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffffa6;
+    height: 157px;
+}
+
+
+.sect2{
+    margin-top:300px;
+}
+
+.services-container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.serv-card{
+    text-align: center;
+    background: #ffffffbf;
+    display: block;
+    width: 332px;
+    margin: 20px;
+    height: 200px;
+    box-shadow: 0px 0px 6px #7474748f;
+}
+
+.serv-card h2{
+    color: black;
+    font-family: 'Josefin Sans';
+    letter-spacing: 4px;
+}
+
+.serv-card p{
+    text-align: left;
+    line-height: 32px;
+    word-spacing: 3px;
+    font-family: 'Josefin Sans';
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-left: 11px;
+}
+
+.about-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom:200px
+}
+
+
+.card{
+    text-align: center;
+    box-shadow: 0px 0px 7px #968989f0;
+    height: 414px;
+    margin-top: 112px;
+    background: #ffffffb8;
+    display: block;
+    width: 360px;
+    text-align: center;
+}
+
+.sect2 h1{
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+.about-container{
+    display: flex;
+    margin-top: 100px;
+}
+
+.img5{
+    width: 50%;
+    padding: 10px;
+}
+
+.header{
+    margin-top: 10px;
+    text-align: -webkit-right;
+    background: #ffffff40;
+    font-family: 'Josefin Sans';
+    font-size: 40px;
+    margin-left: 32px;
+    letter-spacing: 20px;
+    padding: 30px;}
+
+.text p{
+    font-family: 'Josefin Sans';
+    margin-left: 36px;
+    margin-right: 16px;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 21px;
+}
+
+.about-us{
+    text-align: center;
+    display: block;
+}
+
+.about-us h2{
+    font-family: 'Josefin Sans';
+    font-size: 40px;
+    margin-top: 50px;
+    letter-spacing: 9px;
+}
+
+.about-us p{
+    font-family: 'Josefin Sans';
+    text-align: justify;
+    width: 500px;
+    margin-left: 419px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    font-size: 19px;
+    margin-bottom: 68px;
+}
+
+.card img{
+    width: 246px;
+    margin-top: -46px;
+    box-shadow: 0px 0px 28px #747474;
+}
+
+.card h3{
+    font-family: century gothic;
+    color: #b2b7b7;
+    letter-spacing: 6px;
+}
+
+.card h2{
+    font-family: 'Josefin Sans';
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.card p{
+    font-family: 'Circular-Loom';
+    color: gray;
+    letter-spacing: 1px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    margin-bottom: 50px;
+    width: 572px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 82px;
+    margin-left: 50px;
+}
